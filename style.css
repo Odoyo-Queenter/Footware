@@ -157,6 +157,7 @@
     font-size: var(--fs-1);
     font-weight: var(--fw-300);
     line-height: 1.5;
+    
   }
   
   .h2 { font-size: var(--fs-2); }
@@ -366,7 +367,8 @@
   \*-----------------------------------*/
   
   .header {
-    background: var(--white);
+    background: var( hsl(0, 0%, 74%)
+    white);
     position: fixed;
     top: 0;
     left: 0;
@@ -527,11 +529,14 @@
   }
   
   .hero-title { margin-bottom: 10px; }
+  .hero-title{
+    color: var( --white);
+  }
   
   .hero-title > strong { display: block; }
   
   .hero-text {
-    color: var(--onyx);
+    color: var( --white);
     font-family: var(--ff-roboto);
     font-size: var(--fs-8);
     line-height: 1.8;
